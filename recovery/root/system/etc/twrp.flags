@@ -13,7 +13,7 @@
 /recovery           emmc         /dev/block/by-name/recovery          flags=backup=1;display="Recovery Image";flashimg=1
 /vbmeta             emmc         /dev/block/by-name/vbmeta            flags=backup=1;display="Vbmeta Image";flashimg=1
 /vbmeta_samsung     emmc         /dev/block/by-name/vbmeta_samsung    flags=backup=1;display="Vbmeta Samsung Image";flashimg=1
-#/vendor_boot        emmc         /dev/block/by-name/vendor_boot       flags=backup=1;display="Vbmeta Boot Image";flashimg=1
+
 
 # Logical partitions
 odm         /odm         ext4  wait,logical,first_stage_mount
