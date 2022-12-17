@@ -9,4 +9,4 @@ sys.usb.controller=13200000.dwc3
 
 # Dynamic partitions
 ro.boot.dynamic_partitions=true
-ro.boot.boot_devices=bootdevice,13520000.ufs
+ro.boot.boot_devices=13520000.ufs
