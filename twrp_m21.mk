@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 #$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit some common PitchBlack stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+#$(call inherit-product, vendor/pb/config/common.mk)
 
 # Extra required packages.
 PRODUCT_PACKAGES += \
