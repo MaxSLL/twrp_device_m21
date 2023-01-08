@@ -49,12 +49,12 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		#export FOX_REPLACE_BUSYBOX_PS=1
 		#export FOX_REPLACE_TOOLBOX_GETPROP=1
 		#export FOX_USE_TAR_BINARY=1
-		#export FOX_USE_NANO_EDITOR=1
+		export FOX_USE_NANO_EDITOR=1
 		export OF_USE_MAGISKBOOT=1
 		export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 		#export FOX_RESET_SETTINGS=0
 		#export FOX_DELETE_AROMAFM=1
-		export OF_FL_PATH1="/system/flashlight"
+		export OF_FL_PATH1="/sys/devices/virtual/camera/flash/rear_flash"
 		export OF_FL_PATH2=""
 		export OF_FLASHLIGHT_ENABLE=1
 		export FOX_VERSION="R11.1_1"
@@ -62,8 +62,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		export OF_HIDE_NOTCH=1
 		export OF_CLOCK_POS=1
 		export OF_ALLOW_DISABLE_NAVBAR=0
-		export TARGET_DEVICE_ALT="a51, a51ns, a51nsxx"
-		export OF_TARGET_DEVICES="a51, a51ns, a51nsxx"
+		export TARGET_DEVICE_ALT="m21, m21ns, m21nsxx"
+		export OF_TARGET_DEVICES="m21, m21ns, m21nsxx"
 		export OF_USE_SYSTEM_FINGERPRINT=1
 		export OF_USE_TWRP_SAR_DETECT=1
 		export OF_QUICK_BACKUP_LIST="/super;/boot;/vbmeta;/vbmeta_samsung;/dtbo;"
